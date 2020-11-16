@@ -32,7 +32,7 @@ def Dijkstra(graph, w, s):
     Dv[s] = 0
     qtd = 0
     while Cv.count(False) > 0 :
-        u = Dv.index(min(Dv)) #como saber se Cv é false?
+        u = Dv.index(min(Dv)) #como saber se Cv é false??
         
  
 
